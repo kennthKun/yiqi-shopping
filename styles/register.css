@@ -1,0 +1,133 @@
+html,body{
+	height: 100%;
+}
+.box{
+	width: 100%;
+	height: 100%;
+	background: #f5f5f5;
+}
+.box .top{
+	display: -webkit-box;
+	width: 100%;
+	height: 44px;
+	background: white;
+	text-align: center;
+	font-size: 18px;
+}
+.box .top a{
+	display: block;
+}
+.box .top div{
+	width: calc(100% - 88px);
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
+	font-size: 18px;
+	-webkit-box-flex: 1
+}
+.box .top a.login-right{
+	height: 34px;
+	margin: 5px 10px;
+	padding: 0 10px;
+	line-height: 34px;
+	background: #f5f5f5;
+	border: 1px solid #eee;
+	border-radius: 10px;
+}
+.box .top a.login-left{
+	width: 44px;
+	height: 44px;
+	background: url(../images/list/11.png) no-repeat center center;
+}
+.main{
+	width: 100%;
+	margin-top: 45px;
+	border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
+	background: white;
+}
+.main p{
+	width: 320px;
+	height: 44px;
+	margin: 0 auto;
+	padding-left: 25px;
+	background: white;
+	box-sizing: border-box;
+	margin-top: 1px;
+}
+.main p input{
+	width: 100%;
+	height: 100%;
+	border: none;
+	border-bottom: 1px solid #eee;
+	font-size: 14px;
+	
+}
+.main p:first-child{
+	background: url(../images/list/1.png) no-repeat left center;
+}
+.main p:nth-child(5){
+	background: url(../images/list/2.png) no-repeat left center;
+	background-position: 1px 1px;
+}
+.main p:nth-child(3){
+	background: url(../images/list/2.png) no-repeat left center;
+	background-position: 1px 1px;
+}
+.check{
+	width: 320px;
+	height: 44px;
+	margin: 19px auto;
+	line-height: 44px;
+	font-size: 14px;
+	text-align: center;
+}
+.check a{
+	color: #07a5ff;
+}
+.register-on{
+	width: 100%;
+	height: 44px;
+}
+.register-on input{
+	display: block;
+	width: 300px;
+	height: 100%;
+	margin: 0 auto;
+	background: #ff3c3c;
+	border: none;
+	border-radius: 10px;
+	font-size: 14px;
+	color: white;
+}
+span{
+	display: block;
+	width: 100%;
+	height: 20px;
+	text-align: left;
+	line-height: 20px;
+	text-align: center;
+}
+.timer{
+	display: table;
+	position: fixed;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	max-width: 560px;
+	font-size: 50px;
+	background: rgba(1,1,1,.8);
+	box-sizing: border-box;
+	display: none;
+}
+.timer p{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	height: 205px;
+	overflow: hidden;
+	color: white;
+	line-height: 200%;
+	text-align: center;
+}
+

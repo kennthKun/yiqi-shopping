@@ -1,0 +1,300 @@
+.top{
+	width: 100%;
+	position: relative;
+}
+.top .top-a{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 57px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.top .top-a .return{
+	float: left;
+	width: 37px;
+	height: 37px;
+	border: 1px solid #eee;
+	border-radius: 50%;
+	background: rgb(255,255,255) url(../images/list/11.png) no-repeat center center;
+	background-size: 100% 100%;
+}
+.top .top-a .right-top{
+	position: relative;
+	float: right;
+	width: 37px;
+	height: 37px;
+	padding: 2px;
+	border: 1px solid #eee;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 25px;
+	color: #fe5955;
+	box-sizing: border-box;
+	background: rgb(255,255,255);
+	background-size: 60% 60%;
+}
+.top .top-a .right-top span{
+	display: block;
+	position: absolute;
+	top: 45px;
+	left: -120px;
+	width: 130px;
+	padding: 0 10px;
+	background: rgba(0,0,0,0.5);
+	border-radius: 10px;
+	display: none;
+}
+.top .top-a .right-top span i{
+	display: block;
+	position: absolute;
+	top: -10px;
+	right: 15px;
+	width: 0px;
+  border-top: 0px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid rgba(0,0,0,0.5);
+  border-left: 15px solid transparent;
+  
+}
+.top .top-a .right-top span a{
+	display: block;
+	width: 100%;
+	padding: 10px 0 10px 50px;
+	font-size: 14px;
+	color: white;
+	text-align: left;
+	box-sizing: border-box;
+	border-bottom: 1px solid rgba(255,255,255,0.6);
+}
+.top .top-a .right-top span a:nth-child(2){
+	background: url(../images/list/购物车.png) no-repeat left center;
+	background-size: 21% auto;
+	background-position: 7px 10px;
+}
+.top .top-a .right-top span a:nth-child(3){
+	background: url(../images/list/放大镜.png) no-repeat left center;
+	background-size: 45% auto;
+	
+}
+.top .top-a .right-top span a:nth-child(4){
+	background: url(../images/catergry.png) no-repeat left center;
+	background-size: 35% auto;
+}
+.top .top-a .right-top span a:nth-child(5){
+	background: url(../images/list/主页.png) no-repeat left center;
+	background-size: 21% auto;
+	background-position: 10px 10px;
+}
+
+.top .top-a .right-top span a:last-child{
+	border: none;
+}
+.top .detail{
+	width: 100%;
+}
+.top .detail img{
+	width: 100%;
+	margin-top: -3rem;
+}
+.txt{
+	width: 100%;
+	padding: 10px 0;
+	height: 7rem;
+	border-bottom: 1px solid #eee;
+	box-sizing: border-box;
+}
+.txt .txt-left{
+	float: left;
+	border-right: 1px solid #eee;
+	width: 80%;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+.txt p,a,span.price{
+	display: block;
+	width: 100%;
+}
+.txt p{
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	
+}
+.txt a{
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	margin-bottom: 5px;
+}
+.txt .price{
+	color: #fe5955;
+	font-size: 20px;
+	font-weight: bold;
+}
+.txt .txt-right{
+	float: right;
+	width: 19%;
+	box-sizing: border-box;
+	text-align: center;
+	overflow: hidden;
+}
+.txt .txt-right span,i{
+	display: block;
+	margin: 0 auto;
+}
+.txt .txt-right span{
+	width: 20px;
+	height: 20px;
+	padding: 5px;
+	background: url(../images/list/五角星.png) no-repeat;
+	background-size: 100% 100%;
+}
+.txt .txt-right i{
+	padding: 5px 0;
+}
+.detail-center{
+	width: 100%;
+}
+.detail-center .center-txt{
+	width: 100%;
+	border-bottom: 1px solid #eee;
+	padding: 15px;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+.detail-center .shop-list{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.detail-center .shop-list div{
+	float: left;
+	width: 35%;
+	background: #f0f0f0;
+	border: 1px solid black;
+	margin: 0 0 7.5% 9.5% ;
+}
+.detail-center .shop-list div img{
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.detail-center .shop-list div p{
+	width: 90%;
+	height: 2rem;
+	padding: 5px 0;
+	margin: 0 auto;
+	overflow : hidden;
+	line-height: 1.3rem;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.detail-center .shop-list div  em {
+	display: block;
+	width: 90%;
+	margin: 5px auto;
+	color: #E43B4D;
+	
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: 9px 12px;
+	width: 100%;
+	height: 48px;
+	background: white;
+	box-sizing: border-box;
+	border-top: 1px solid #E43B4D;
+}
+footer p{
+	float: left;
+	display: -webkit-box;
+	width: 35%;
+	height: 27px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+}
+footer p span{
+	display:block; 
+	width: 30%;
+	height: 100%;
+	font-size: 21px;
+	text-align: center;
+	line-height: 27px;
+	box-sizing: border-box;
+	position: relative;
+}
+footer p span:first-child{
+	border-right: 1px solid #ddd;
+}
+footer p span:last-child{
+	border-left: 1px solid #ddd;
+}
+
+footer p input{
+	display: block;
+	width: 40%;
+	height: 100%;
+	text-align: center;
+	border: none;
+}
+footer p button{
+	float: left;
+}
+footer .buy{
+	width: 25%;
+	height: 27px;
+	background: #ff9800;
+	text-align: center;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin: 0 3%;
+}
+footer .add-cart{
+	width: 25%;
+	height: 27px;
+	background: #fe3c3c;
+	text-align: center;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+#boxTxt{
+	width: 100%;
+	height: 300px;
+	max-width: 560px;
+	background: rgba(33,212,19,.8);
+	display: block;
+	position: fixed;
+	top: calc(50% - 150px);
+	left: 0;
+	border: 1px solid #B22222;
+	border-radius: 10px;
+	box-sizing: border-box;
+	display: none;
+}
+#boxTxt h2{
+	font-size: 30px;
+	color: #B22222;
+	font-weight: bold;
+	width: 100%;
+	line-height: 200px;
+	text-align: center;
+}
+#boxTxt span{
+	float: left;
+	width: 45%;
+	height: 50px;
+	background: #EA993C;
+	margin: 0 2.5%;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+}

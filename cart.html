@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>1号店购物车</title>
+	<link rel="stylesheet" type="text/css" href="styles/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="styles/common.css"/>
+	<link rel="stylesheet" type="text/css" href="styles/cart.css"/>
+</head>
+<body>
+	<div class="top">
+		<a class="login-left" href="javascript:history.go(-1)"></a>
+		<div>购物车</div>
+		<a class="login-right"></a>
+	</div>
+	<div id="mian"></div>
+	<div class="end-box"></div>
+	<footer>
+		<div id="end">
+			<span class="foot-check">
+				<input type='checkbox' id='allCheck' value='' />
+				<label for='allCheck'><i>全选</i></label>
+			</span>
+			<span class="total">合计：<em>¥0.00</em></span>
+			<a class="account" href="#">结算</a>
+		</div>
+	</footer>
+	<script src="js/jquery-3.2.1.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/api.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/cart.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
